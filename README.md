@@ -1,5 +1,5 @@
 # DESCRIPTION
 
-This is a small practice project to practice form learnings from The Odin Project
+This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum
 
 * ...
