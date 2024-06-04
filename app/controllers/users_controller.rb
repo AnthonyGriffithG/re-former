@@ -1,10 +1,11 @@
 class UsersController < ApplicationController
     def new
+        @user = User.new
     end
 
     def create
-        new_user = User.new(user_params)
-        if (new_user.save)
+        @user = User.new(user_params)
+        if (@user.save)
             redirect_to rails_health_check_path
         else
             render :new
