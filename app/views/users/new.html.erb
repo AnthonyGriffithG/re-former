@@ -1,1 +1,12 @@
-Initial Setup
+<h1>New User</h1>
+
+<form action="<%= users_path %>" method="post">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="username">Username</label>
+    <input name="user[username]" placeholder="Enter username" > 
+    <label for="uemail">Username</label>
+    <input name="user[email]" placeholder="Enter email" > 
+    <label for="password">Username</label>
+    <input name="user[password]" placeholder="Enter password" type="password"> 
+    <input type="submit">
+</form>
